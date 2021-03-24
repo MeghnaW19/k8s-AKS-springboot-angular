@@ -1,0 +1,31 @@
+nav{
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    overflow: hidden; 
+    z-index: 1;
+}
+nav{
+  justify-content: left;
+}
+/* css for all header items */
+nav.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    margin-left: 2.5rem;
+    background-color: #333;
+  }
+  
+   a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 1.5rem;
+  }
+  
+  a:hover:not(.active) {background-color: rgb(88, 86, 86);}

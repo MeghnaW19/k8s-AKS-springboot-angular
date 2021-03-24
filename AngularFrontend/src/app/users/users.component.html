@@ -1,0 +1,21 @@
+<div class=" table-responsive">
+      <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"> S.No</th>
+                  <th scope="col">Email</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Age</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let user of users; let i= index">
+                  <td> {{i+1}}</td>
+                  <td> {{user.email}}</td>
+                  <td>{{user.name}}</td>
+                  <td>{{user.age}}</td>
+                </tr>
+              </tbody>
+      </table>
+    </div>
+  

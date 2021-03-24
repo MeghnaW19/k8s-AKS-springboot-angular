@@ -1,0 +1,3 @@
+#Create ConfigMap with key and value, which has to be accessed by MySQL and while deploying SpringBoot application
+#Define a key value for mysql_database and mysql_url keys to connect to MySQL
+apiVersion: v1
